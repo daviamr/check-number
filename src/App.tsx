@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import { CheckerPage } from "./pages/Checker/page";
 import { LoginPage } from "./pages/Login/page";
 import { UserPage } from "./pages/User/page"
+import AnatelPage from "./pages/Anatel/page";
 
 
 function RootApp() {
@@ -24,6 +25,7 @@ function RootApp() {
       {view === 'loginpage' && <LoginPage />}
       {view === 'userpage' && <UserPage />}
       {view === 'checkerpage' && <CheckerPage />}
+      {view === 'anatelpage' && <AnatelPage />}
     </>
   )
 }

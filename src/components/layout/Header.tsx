@@ -22,6 +22,10 @@ export function Header() {
                 Checker
               </li>
 
+              <li className={`cursor-pointer ${view === 'anatelpage' && 'font-bold'}`} onClick={() => changeView('anatelpage')}>
+                Consulta Base Numérica Anatel
+              </li>
+
             </ul>
           </nav>
 

@@ -48,6 +48,7 @@ export function LoginForm() {
   }
 
   if (isLoading) return <span className="animate-spin"><Loader size={32} /></span>
+  
   return (
     <form
       className="flex flex-col gap-6 max-w-80 w-full"

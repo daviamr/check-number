@@ -20,6 +20,8 @@ export function UserTable() {
   ]
   const { usersQuery: { isLoading, data }, deleteUser } = useUserController()
 
+  if (!data) return <span>Nenhum usuário encontrado</span>
+
   return (
     <div>
       <div className="flex justify-end pb-2">

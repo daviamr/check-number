@@ -8,7 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import { CheckerPage } from "./pages/Checker/page";
 import { LoginPage } from "./pages/Login/page";
 import { UserPage } from "./pages/User/page"
-import AnatelPage from "./pages/Anatel/page";
+import { AnatelPage } from "./pages/Anatel/page";
 
 
 function RootApp() {

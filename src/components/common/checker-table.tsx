@@ -269,7 +269,7 @@ export function CheckerTable() {
           </div>
           <UploadSheet />
           <TooltipPadrao message="Download Total">
-            <Button variant={"secondary"} className="ml-4" onClick={exportDefaultSheet}><Download size={16} /> Download</Button>
+            <Button variant={"secondary"} className="ml-4" onClick={exportDefaultSheet}><Download size={16} /> Download Base</Button>
           </TooltipPadrao>
         </div>
       </div>
